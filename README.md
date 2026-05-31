@@ -1,7 +1,7 @@
 # Monitor de paciente UCI - sistema de signos vitales
 
 <p align="center">
-  <img src="MD/Reporte/Logo.png" alt="Logo del monitor" width="250"/>
+  <img src="IMG/Logo.png" alt="Logo del monitor" width="250"/>
 </p>
 
 Este proyecto consiste en un **monitor de paciente en Unidad de Cuidados Intensivos (UCI)**, desarrollado en lenguaje ensamblador x86. El sistema simula la captura de datos generales del paciente, lee muestras de sensores clínicos desde un archivo físico (`lecturas.txt`), procesa variables médicas complejas (como la Presión Arterial Media y la conversión de Temperatura de Celsius a Fahrenheit), diagnostica el estado clínico en tiempo real, activa alarmas sonoras/visuales en caso crítico y guarda un registro persistente en una bitácora de historial (`bitacora.txt`).
@@ -30,15 +30,15 @@ A continuación se muestran los tres escenarios de visualización en pantalla de
 
 ### Escenario 1 - estado clínico normal (estable)
 Muestra signos vitales estables dentro del rango esperado. El corazón indicador parpadea en color verde claro.
-![Escenario 1 - estado clínico normal](MD/Reporte/Escenario%201.png)
+![Escenario 1 - estado clínico normal](IMG/Escenario%201.png)
 
 ### Escenario 2 - estado clínico de alerta (bajo observación)
 Se presenta cuando alguno de los signos vitales se desvía levemente de los rangos normales (como fiebre leve o taquicardia moderada). El corazón indicador parpadea en color amarillo.
-![Escenario 2 - estado clínico de alerta](MD/Reporte/Escenario%202.png)
+![Escenario 2 - estado clínico de alerta](IMG/Escenario%202.png)
 
 ### Escenario 3 - estado clínico crítico (alarma activada)
 Activado por valores críticos (hipoxia severa, bradicardia o fiebre alta). El corazón indicador parpadea en color rojo, el texto del diagnóstico parpadea en pantalla y suena una alarma física intermitente.
-![Escenario 3 - estado clínico crítico](MD/Reporte/Escenario%203.png)
+![Escenario 3 - estado clínico crítico](IMG/Escenario%203.png)
 
 ---
 
