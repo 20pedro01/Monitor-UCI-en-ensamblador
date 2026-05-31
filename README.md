@@ -1,6 +1,6 @@
 # Monitor de paciente UCI - sistema de signos vitales
 
-<img src="MD/Reporte/Logo.png" alt="Logo del monitor" width="100%">
+<img src="IMG/Logo.png" alt="Logo del monitor" width="100%">
 
 Este proyecto consiste en un **monitor de paciente en Unidad de Cuidados Intensivos (UCI)**, desarrollado en lenguaje ensamblador x86. El sistema simula la captura de datos generales del paciente, lee muestras de sensores clínicos desde un archivo físico (`lecturas.txt`), procesa variables médicas complejas (como la Presión Arterial Media y la conversión de Temperatura de Celsius a Fahrenheit), diagnostica el estado clínico en tiempo real, activa alarmas sonoras/visuales en caso crítico y guarda un registro persistente en una bitácora de historial (`bitacora.txt`).
 
