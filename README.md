@@ -110,7 +110,7 @@ La versión de 32 bits está diseñada para compilarse en entornos modernos a tr
         copy bitacora.txt bitacora.obj
         ```
     *   **Vuelve a compilar/correr `mon32.asm`**. Al terminar de compilar, el emulador detectará el archivo de extensión `.obj` como un artefacto de compilación y lo exportará físicamente a la carpeta de tu Mac.
-    *   Abre o renombra el archivo `bitacora.obj` resultante en tu Mac para acceder a los registros.
+    *   Abre o renombra el archivo `bitacora.obj` resultante en tu computadora para acceder a los registros.
 
 *Nota: Si ejecutas el compilado `mon32.exe` en un sistema operativo Windows real o en un emulador nativo con permisos de disco directo, el programa escribirá en `BITACORA.TXT` físicamente de forma automática.*
 
